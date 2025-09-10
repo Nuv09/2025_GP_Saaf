@@ -1,4 +1,4 @@
-# Sa’af – Intelligent Palm Tree Health Monitoring Platform 
+# 🌴 Sa’af – Intelligent Palm Tree Health Monitoring Platform 
 
 ## 📌 Introduction Palm trees are one of the most important agricultural and economic resources in Saudi Arabia and the Arab world. However, they face critical challenges such as **Red Palm Weevil infestations, water stress, and nutrient deficiencies**. Traditional inspection methods are often **time-consuming, costly, and limited in scale**, making early detection difficult. **Sa’af** is a smart platform that leverages **satellite imagery and Artificial Intelligence (AI)** to monitor palm tree health and provide early detection of potential risks. The system aims to support farmers and agricultural organizations in protecting palm trees, reducing losses, and improving farm management.
 
@@ -22,21 +22,24 @@
 
 ## ⚙️ Launching Instructions 1. 
 **Clone the repository:**
-bash
+```bash
 git clone https://github.com/YourOrg/2025_GP_GroupNumber.git
 cd 2025_GP_GroupNumber
+```
 
 2. **Backend Setup (Flask):**
-bash
+```bash
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 
 4. **Frontend Setup (Flutter):**
-bash
+```bash
 cd frontend
 flutter pub get
 flutter run
+```
 
 6. **Database Setup:**
 - Import the provided SQL file into MySQL
